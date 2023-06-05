@@ -1,7 +1,7 @@
 # KeyPressStats
 A tool that tracks your keypresses and stores them locally in a JSON file. 
 
-![image](https://github.com/ziptieentity/Keypress-Stats/assets/48808194/4a5e49b7-999e-44b9-8318-cd921888d475)
+![image](https://github.com/ziptieentity/Keypress-Stats/assets/48808194/9d81ddb2-ca66-4908-b545-f5e536b00bd3)
 
 ## How to use
 - Head over to [releases](https://github.com/ziptieentity/Keypress-Stats/releases) and download the latest version
