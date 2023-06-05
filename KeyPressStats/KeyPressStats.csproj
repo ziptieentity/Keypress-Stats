@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageIcon>keyboard_32.png</PackageIcon>
+    <Version>1.2.0</Version>
+    <Product>Key Press Stats</Product>
+    <Company></Company>
+    <Description>A application that tracks how many keys you press.</Description>
+    <Authors>ziptie.entity</Authors>
+    <Title>Key Press Stats</Title>
+    <ApplicationIcon>_keyboard.ico</ApplicationIcon>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="_keyboard.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MouseKeyHook" Version="5.7.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Icons\close_32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Icons\folder_32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Icons\save_32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
