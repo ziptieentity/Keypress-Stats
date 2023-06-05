@@ -14,3 +14,6 @@ A tool that tracks your keypresses and stores them locally in a JSON file.
 
 ## How does it work?
 Every time you press a key, it stores that keypress in a list and every 30 seconds, all of the keys inside of that list will be stored in the **Keypresses.json** file and sorted.
+
+### Notes
+Requires [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
